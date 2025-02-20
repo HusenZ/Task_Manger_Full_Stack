@@ -21,7 +21,7 @@ const userSchema = new Schema(
       type: String,
       lowercase: true,
       trim: true,
-      required: [ture, "Password is must"],
+      required: [true, "Password is must"],
     },
     refreshToken: {
       type: String,
